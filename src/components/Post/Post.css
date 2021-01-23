@@ -1,0 +1,32 @@
+.post__container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post__background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.post__image {
+    z-index: 1;
+}
+.post__text--left {
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    bottom: 36px;
+    left: 24px;
+    z-index: 3;
+}
+.post__text--right {
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    bottom: 36px;
+    right: 24px;
+    z-index: 3;
+}
